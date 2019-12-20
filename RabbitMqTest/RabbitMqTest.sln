@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.EmitLogDirect", "EmitLogD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ReceiveLogsDirect", "ReceiveLogsDirect\4.ReceiveLogsDirect.csproj", "{C3CE48E9-7724-4958-A2F5-7955172AFBDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.EmitLogTopic", "EmitLogTopic\5.EmitLogTopic.csproj", "{98F215C7-0B9F-462A-9320-2A2ED73BB383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ReceiveLogsTopic", "ReceiveLogsTopic\5.ReceiveLogsTopic.csproj", "{7ECC41E9-82B0-400E-A656-832A6F2BE48C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{C3CE48E9-7724-4958-A2F5-7955172AFBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3CE48E9-7724-4958-A2F5-7955172AFBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3CE48E9-7724-4958-A2F5-7955172AFBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F215C7-0B9F-462A-9320-2A2ED73BB383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F215C7-0B9F-462A-9320-2A2ED73BB383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F215C7-0B9F-462A-9320-2A2ED73BB383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F215C7-0B9F-462A-9320-2A2ED73BB383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECC41E9-82B0-400E-A656-832A6F2BE48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECC41E9-82B0-400E-A656-832A6F2BE48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECC41E9-82B0-400E-A656-832A6F2BE48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECC41E9-82B0-400E-A656-832A6F2BE48C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
