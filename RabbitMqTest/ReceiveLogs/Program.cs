@@ -9,7 +9,7 @@ namespace ReceiveLogs
     {
         public static void Main()
         {
-            var factory = new ConnectionFactory() { HostName = "192.168.132.105", UserName = "admin", Password = "admin" };
+            var factory = new ConnectionFactory() { HostName = "192.168.132.105" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
